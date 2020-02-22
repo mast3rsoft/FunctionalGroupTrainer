@@ -81,6 +81,7 @@
 			children = (
 				23E6E100240197080063FB16 /* AppDelegate.swift */,
 				23E6E102240197080063FB16 /* SceneDelegate.swift */,
+				23E6E12224019AD30063FB16 /* Images */,
 				23E6E104240197080063FB16 /* ContentView.swift */,
 				23E6E106240197120063FB16 /* Assets.xcassets */,
 				23E6E10B240197120063FB16 /* LaunchScreen.storyboard */,
@@ -105,6 +106,13 @@
 				23E6E119240197130063FB16 /* Info.plist */,
 			);
 			path = FunctionalGroupTrainerTests;
+			sourceTree = "<group>";
+		};
+		23E6E12224019AD30063FB16 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
