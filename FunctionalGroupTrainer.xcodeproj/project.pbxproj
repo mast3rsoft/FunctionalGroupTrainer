@@ -14,6 +14,44 @@
 		23E6E10A240197120063FB16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E109240197120063FB16 /* Preview Assets.xcassets */; };
 		23E6E10D240197120063FB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E10B240197120063FB16 /* LaunchScreen.storyboard */; };
 		23E6E118240197130063FB16 /* FunctionalGroupTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E117240197130063FB16 /* FunctionalGroupTrainerTests.swift */; };
+		23E6E1362401CE940063FB16 /* Ketone.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12C2401CE940063FB16 /* Ketone.png */; };
+		23E6E1372401CE940063FB16 /* Ketone.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12C2401CE940063FB16 /* Ketone.png */; };
+		23E6E1382401CE940063FB16 /* Alkene.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12D2401CE940063FB16 /* Alkene.png */; };
+		23E6E1392401CE940063FB16 /* Alkene.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12D2401CE940063FB16 /* Alkene.png */; };
+		23E6E13A2401CE940063FB16 /* Arene.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12E2401CE940063FB16 /* Arene.png */; };
+		23E6E13B2401CE940063FB16 /* Arene.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12E2401CE940063FB16 /* Arene.png */; };
+		23E6E13C2401CE940063FB16 /* Alkyne.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12F2401CE940063FB16 /* Alkyne.png */; };
+		23E6E13D2401CE940063FB16 /* Alkyne.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E12F2401CE940063FB16 /* Alkyne.png */; };
+		23E6E13E2401CE940063FB16 /* Alcohol.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1302401CE940063FB16 /* Alcohol.png */; };
+		23E6E13F2401CE940063FB16 /* Alcohol.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1302401CE940063FB16 /* Alcohol.png */; };
+		23E6E1402401CE940063FB16 /* Aldehyde.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1312401CE940063FB16 /* Aldehyde.png */; };
+		23E6E1412401CE940063FB16 /* Aldehyde.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1312401CE940063FB16 /* Aldehyde.png */; };
+		23E6E1422401CE940063FB16 /* Carboxylic Acid.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1322401CE940063FB16 /* Carboxylic Acid.png */; };
+		23E6E1432401CE940063FB16 /* Carboxylic Acid.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1322401CE940063FB16 /* Carboxylic Acid.png */; };
+		23E6E1462401CE940063FB16 /* Acid Anhydride.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1342401CE940063FB16 /* Acid Anhydride.png */; };
+		23E6E1472401CE940063FB16 /* Acid Anhydride.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1342401CE940063FB16 /* Acid Anhydride.png */; };
+		23E6E1482401CE940063FB16 /* Haloalkane.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1352401CE940063FB16 /* Haloalkane.png */; };
+		23E6E1492401CE940063FB16 /* Haloalkane.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1352401CE940063FB16 /* Haloalkane.png */; };
+		23E6E1542401DFFA0063FB16 /* Nitrile.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14A2401DFF90063FB16 /* Nitrile.png */; };
+		23E6E1552401DFFA0063FB16 /* Nitrile.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14A2401DFF90063FB16 /* Nitrile.png */; };
+		23E6E1562401DFFA0063FB16 /* Amine.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14B2401DFF90063FB16 /* Amine.png */; };
+		23E6E1572401DFFA0063FB16 /* Amine.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14B2401DFF90063FB16 /* Amine.png */; };
+		23E6E1582401DFFA0063FB16 /* Epoxide.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14C2401DFF90063FB16 /* Epoxide.png */; };
+		23E6E1592401DFFA0063FB16 /* Epoxide.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14C2401DFF90063FB16 /* Epoxide.png */; };
+		23E6E15A2401DFFA0063FB16 /* Ether.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14D2401DFF90063FB16 /* Ether.png */; };
+		23E6E15B2401DFFA0063FB16 /* Ether.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14D2401DFF90063FB16 /* Ether.png */; };
+		23E6E15C2401DFFA0063FB16 /* Nitrate.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14E2401DFF90063FB16 /* Nitrate.png */; };
+		23E6E15D2401DFFA0063FB16 /* Nitrate.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14E2401DFF90063FB16 /* Nitrate.png */; };
+		23E6E15E2401DFFA0063FB16 /* Amide.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14F2401DFF90063FB16 /* Amide.png */; };
+		23E6E15F2401DFFA0063FB16 /* Amide.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E14F2401DFF90063FB16 /* Amide.png */; };
+		23E6E1602401DFFA0063FB16 /* Acid Halide.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1502401DFF90063FB16 /* Acid Halide.png */; };
+		23E6E1612401DFFA0063FB16 /* Acid Halide.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1502401DFF90063FB16 /* Acid Halide.png */; };
+		23E6E1622401DFFA0063FB16 /* Nitrite.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1512401DFF90063FB16 /* Nitrite.png */; };
+		23E6E1632401DFFA0063FB16 /* Nitrite.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1512401DFF90063FB16 /* Nitrite.png */; };
+		23E6E1642401DFFA0063FB16 /* Nitro.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1522401DFFA0063FB16 /* Nitro.png */; };
+		23E6E1652401DFFA0063FB16 /* Nitro.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1522401DFFA0063FB16 /* Nitro.png */; };
+		23E6E1662401DFFA0063FB16 /* Ester.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1532401DFFA0063FB16 /* Ester.png */; };
+		23E6E1672401DFFA0063FB16 /* Ester.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1532401DFFA0063FB16 /* Ester.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +76,25 @@
 		23E6E113240197130063FB16 /* FunctionalGroupTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalGroupTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E6E117240197130063FB16 /* FunctionalGroupTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalGroupTrainerTests.swift; sourceTree = "<group>"; };
 		23E6E119240197130063FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E6E12C2401CE940063FB16 /* Ketone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ketone.png; sourceTree = "<group>"; };
+		23E6E12D2401CE940063FB16 /* Alkene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alkene.png; sourceTree = "<group>"; };
+		23E6E12E2401CE940063FB16 /* Arene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arene.png; sourceTree = "<group>"; };
+		23E6E12F2401CE940063FB16 /* Alkyne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alkyne.png; sourceTree = "<group>"; };
+		23E6E1302401CE940063FB16 /* Alcohol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alcohol.png; sourceTree = "<group>"; };
+		23E6E1312401CE940063FB16 /* Aldehyde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aldehyde.png; sourceTree = "<group>"; };
+		23E6E1322401CE940063FB16 /* Carboxylic Acid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carboxylic Acid.png"; sourceTree = "<group>"; };
+		23E6E1342401CE940063FB16 /* Acid Anhydride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acid Anhydride.png"; sourceTree = "<group>"; };
+		23E6E1352401CE940063FB16 /* Haloalkane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Haloalkane.png; sourceTree = "<group>"; };
+		23E6E14A2401DFF90063FB16 /* Nitrile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitrile.png; sourceTree = "<group>"; };
+		23E6E14B2401DFF90063FB16 /* Amine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amine.png; sourceTree = "<group>"; };
+		23E6E14C2401DFF90063FB16 /* Epoxide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Epoxide.png; sourceTree = "<group>"; };
+		23E6E14D2401DFF90063FB16 /* Ether.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ether.png; sourceTree = "<group>"; };
+		23E6E14E2401DFF90063FB16 /* Nitrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitrate.png; sourceTree = "<group>"; };
+		23E6E14F2401DFF90063FB16 /* Amide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amide.png; sourceTree = "<group>"; };
+		23E6E1502401DFF90063FB16 /* Acid Halide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acid Halide.png"; sourceTree = "<group>"; };
+		23E6E1512401DFF90063FB16 /* Nitrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitrite.png; sourceTree = "<group>"; };
+		23E6E1522401DFFA0063FB16 /* Nitro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitro.png; sourceTree = "<group>"; };
+		23E6E1532401DFFA0063FB16 /* Ester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ester.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +168,25 @@
 		23E6E12224019AD30063FB16 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				23E6E1502401DFF90063FB16 /* Acid Halide.png */,
+				23E6E14F2401DFF90063FB16 /* Amide.png */,
+				23E6E14B2401DFF90063FB16 /* Amine.png */,
+				23E6E14C2401DFF90063FB16 /* Epoxide.png */,
+				23E6E1532401DFFA0063FB16 /* Ester.png */,
+				23E6E14D2401DFF90063FB16 /* Ether.png */,
+				23E6E14E2401DFF90063FB16 /* Nitrate.png */,
+				23E6E14A2401DFF90063FB16 /* Nitrile.png */,
+				23E6E1512401DFF90063FB16 /* Nitrite.png */,
+				23E6E1522401DFFA0063FB16 /* Nitro.png */,
+				23E6E12D2401CE940063FB16 /* Alkene.png */,
+				23E6E12F2401CE940063FB16 /* Alkyne.png */,
+				23E6E12E2401CE940063FB16 /* Arene.png */,
+				23E6E1352401CE940063FB16 /* Haloalkane.png */,
+				23E6E1302401CE940063FB16 /* Alcohol.png */,
+				23E6E1312401CE940063FB16 /* Aldehyde.png */,
+				23E6E12C2401CE940063FB16 /* Ketone.png */,
+				23E6E1322401CE940063FB16 /* Carboxylic Acid.png */,
+				23E6E1342401CE940063FB16 /* Acid Anhydride.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -196,9 +272,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E6E15E2401DFFA0063FB16 /* Amide.png in Resources */,
+				23E6E1642401DFFA0063FB16 /* Nitro.png in Resources */,
+				23E6E1622401DFFA0063FB16 /* Nitrite.png in Resources */,
+				23E6E13E2401CE940063FB16 /* Alcohol.png in Resources */,
 				23E6E10D240197120063FB16 /* LaunchScreen.storyboard in Resources */,
+				23E6E1462401CE940063FB16 /* Acid Anhydride.png in Resources */,
+				23E6E1582401DFFA0063FB16 /* Epoxide.png in Resources */,
+				23E6E15A2401DFFA0063FB16 /* Ether.png in Resources */,
 				23E6E10A240197120063FB16 /* Preview Assets.xcassets in Resources */,
+				23E6E1402401CE940063FB16 /* Aldehyde.png in Resources */,
 				23E6E107240197120063FB16 /* Assets.xcassets in Resources */,
+				23E6E1662401DFFA0063FB16 /* Ester.png in Resources */,
+				23E6E15C2401DFFA0063FB16 /* Nitrate.png in Resources */,
+				23E6E1482401CE940063FB16 /* Haloalkane.png in Resources */,
+				23E6E1422401CE940063FB16 /* Carboxylic Acid.png in Resources */,
+				23E6E13C2401CE940063FB16 /* Alkyne.png in Resources */,
+				23E6E1382401CE940063FB16 /* Alkene.png in Resources */,
+				23E6E1542401DFFA0063FB16 /* Nitrile.png in Resources */,
+				23E6E1362401CE940063FB16 /* Ketone.png in Resources */,
+				23E6E1562401DFFA0063FB16 /* Amine.png in Resources */,
+				23E6E1602401DFFA0063FB16 /* Acid Halide.png in Resources */,
+				23E6E13A2401CE940063FB16 /* Arene.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +301,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E6E1592401DFFA0063FB16 /* Epoxide.png in Resources */,
+				23E6E1372401CE940063FB16 /* Ketone.png in Resources */,
+				23E6E1472401CE940063FB16 /* Acid Anhydride.png in Resources */,
+				23E6E13D2401CE940063FB16 /* Alkyne.png in Resources */,
+				23E6E1572401DFFA0063FB16 /* Amine.png in Resources */,
+				23E6E13F2401CE940063FB16 /* Alcohol.png in Resources */,
+				23E6E1412401CE940063FB16 /* Aldehyde.png in Resources */,
+				23E6E1392401CE940063FB16 /* Alkene.png in Resources */,
+				23E6E1432401CE940063FB16 /* Carboxylic Acid.png in Resources */,
+				23E6E1632401DFFA0063FB16 /* Nitrite.png in Resources */,
+				23E6E1552401DFFA0063FB16 /* Nitrile.png in Resources */,
+				23E6E1612401DFFA0063FB16 /* Acid Halide.png in Resources */,
+				23E6E1672401DFFA0063FB16 /* Ester.png in Resources */,
+				23E6E13B2401CE940063FB16 /* Arene.png in Resources */,
+				23E6E15B2401DFFA0063FB16 /* Ether.png in Resources */,
+				23E6E15F2401DFFA0063FB16 /* Amide.png in Resources */,
+				23E6E1492401CE940063FB16 /* Haloalkane.png in Resources */,
+				23E6E1652401DFFA0063FB16 /* Nitro.png in Resources */,
+				23E6E15D2401DFFA0063FB16 /* Nitrate.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
