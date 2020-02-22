@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    var redAngularGradient: Gradient {
+    Gradient(colors: [Color(hue: 0, saturation: 100, brightness: 100), Color(hue: 0, saturation: 100, brightness: 70), Color(hue: 0, saturation: 100, brightness: 40)])
+    }
     @State var showText = true;
     var body: some View {
         VStack {
@@ -19,7 +22,9 @@ struct ContentView: View {
                 } else {
                     Image("alkane").renderingMode(  .original)
                 }
-            }
+            }.gesture(DragGesture().onEnded {_ in 
+                self.showText.toggle()
+            })
             Spacer()
             HStack(alignment: .bottom) {
                 Spacer(minLength: 100)
