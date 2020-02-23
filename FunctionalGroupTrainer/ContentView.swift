@@ -8,15 +8,14 @@
 
 import SwiftUI
 
-let groups = ["Alkane", "Alkene", "Alkyne", "Arene", "Haloalkane", "Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid", "Acid Anhydride","Acid Halide", "Amide", "Amine", "Epoxide", "Ester", "Ether", "Nitrate", "Nitrile", "Nitrite", "Nitro"]
+let groups = ["Alkane", "Alkene", "Alkyne", "Arene", "Haloalkane", "Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid", "Acid Anhydride","Acid Halide", "Amide", "Amine", "Epoxide", "Ester", "Ether", "Nitrate", "Nitrile", "Nitrite", "Nitro", "Nitroso", "Imine", "Imide", "Azide", "Cyanate", "Isocyanate", "Azo Compound", "Thiol", "Sulfide", "Disulfide", "Sulfoxide", "Sulfone", "Sulfinic Acid", "Sulfonate Ester", "Thiocyanate", "Isothiocyanate", "Thial", "Thioketone", "Phosphine"]
 
 struct ContentView: View {
     @State var index = 1
     @State var sequence = Array(0..<groups.count).shuffled()
-    var redAngularGradient: Gradient {
-    Gradient(colors: [Color(hue: 0, saturation: 100, brightness: 100), Color(hue: 0, saturation: 100, brightness: 70), Color(hue: 0, saturation: 100, brightness: 40)])
-    }
-    @State var showText = true;
+    static let redColors = Gradient(colors: [Color(hue: 0, saturation: 100, brightness: 100), Color(hue: 0, saturation: 10, brightness: 70), Color(hue: 40, saturation: 100, brightness: 40)])
+    let redAngularGradient = RadialGradient(gradient: redColors, center: .center, startRadius: 0.0, endRadius: 100.0)
+    @State var showText = true
     @State var score = 0
     @State var numQuestions = 0
     var percentage: Double {
@@ -66,7 +65,7 @@ struct ContentView: View {
                     self.advance(increment: 1)
                 }
                 Spacer(minLength: 100)
-                Circle().frame(width: 100, height: 100, alignment: .center).foregroundColor(.red).onTapGesture {
+                Circle().fill(self.redAngularGradient).frame(width: 100, height: 100, alignment: .center).onTapGesture {
                     self.advance(increment: 0)
                 }
                 Spacer(minLength: 100)
