@@ -10,8 +10,8 @@ import Foundation
 import RealmSwift
 
 class Card: Object {
-    dynamic var deck: Int = 1
-    dynamic var name: String = ""
+    @objc dynamic var deck: Int = 1
+    @objc dynamic var name: String = ""
     override class func primaryKey() -> String? {
         return "name"
     }

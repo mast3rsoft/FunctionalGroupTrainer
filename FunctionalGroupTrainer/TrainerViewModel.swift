@@ -14,9 +14,21 @@ final class TrainerViewModel: ObservableObject {
     var trainingIsOver = false
     var count = 0
     var objectWillChange = PassthroughSubject<Void,Never>()
-    var currentCard =  FlashCard(deck: 99, name: "?????????", knownAtFirstGuess: false, known: false){
+    var currentCard =  FlashCard(){
         didSet {
             objectWillChange.send()
+        }
+    }
+    init() {
+        print("Not doing anythning")
+    }
+    func load(newTraining: Bool) {
+        if newTraining {
+            print("New training")
+            self.newTraining()
+        } else {
+            print("Continue training")
+            self.resumeTraining()
         }
     }
     var trainer = Trainer() {

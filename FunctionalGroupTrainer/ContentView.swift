@@ -9,15 +9,18 @@
 import SwiftUI
 
 struct StartingScreen: View {
-    
+    let viewModel = TrainerViewModel()
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: ContentView(isNew: false)) {
+                NavigationLink(destination: ContentView(viewModel: viewModel).onAppear() { self.viewModel.load(newTraining: true) })
+                    {
+                        Text("New Training")
+                    }
+                NavigationLink(destination: ContentView(viewModel: viewModel).onAppear() {
+                    self.viewModel.load(newTraining: false)})
+                    {
                     Text("Continue Training")
-                }
-                NavigationLink(destination: ContentView(isNew: true)) {
-                    Text("New Training")
                 }
             }.navigationBarTitle("FT Trainer")
         }
@@ -26,6 +29,7 @@ struct StartingScreen: View {
 }
 let groups1 = ["Alkane", "Alkene", "Alkyne", "Arene", "Haloalkane", "Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid", "Acid Anhydride","Acid Halide", "Amide", "Amine", "Epoxide", "Ester", "Ether", "Nitrate", "Nitrile", "Nitrite", "Nitro", "Nitroso", "Imine", "Imide", "Azide", "Cyanate", "Isocyanate", "Azo Compound", "Thiol", "Sulfide", "Disulfide", "Sulfoxide", "Sulfone", "Sulfinic Acid", "Sulfonate Ester", "Thiocyanate", "Isothiocyanate", "Thial", "Thioketone", "Phosphine"]
 struct ContentView: View {
+    @ObservedObject var viewModel: TrainerViewModel
     @State var isNew: Bool = false
     @State var index = 1
     @State var sequence = Array(0..<groups1.count).shuffled()
@@ -92,10 +96,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().gesture(DragGesture().onChanged { gesInfo in
-            print(gesInfo.location)
-            
-        })
+        Text("hello world")
     }
 }
 

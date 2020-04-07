@@ -37,7 +37,14 @@ struct TrainingDeck: Sequence {
     }
 }
 
-struct FlashCard: Equatable {
+class FlashCard: Equatable {
+    static func == (lhs: FlashCard, rhs: FlashCard) -> Bool {
+        lhs.name == rhs.name
+    }
+    init(_ name: String) {
+        self.name = name
+    }
+    init() {}
     var deck = 0
     var name: String = "????????????????"
     var knownAtFirstGuess = true
@@ -58,7 +65,7 @@ struct FlashCard: Equatable {
         let realm = try! Realm()
         return FlashCard.db2card(realm.object(ofType: Card.self, forPrimaryKey: name)!)
     }
-    mutating func answered(_ correct: Bool) {
+    func answered(_ correct: Bool) {
         if (correct) {
             known = true
         } else {
@@ -109,8 +116,9 @@ struct Trainer {
         trainingDeck = TrainingDeck(deck)
     }
     mutating func newTraining() {
-        for var card in flashCards {
-            card.deck = 0
+        flashCards.removeAll()
+        for group in groups {
+            flashCards.append(FlashCard(group))
         }
         trainingStart = Date() // today
         trainingDay = 1
