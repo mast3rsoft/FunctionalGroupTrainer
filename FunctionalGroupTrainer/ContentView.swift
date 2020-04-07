@@ -8,11 +8,27 @@
 
 import SwiftUI
 
-let groups = ["Alkane", "Alkene", "Alkyne", "Arene", "Haloalkane", "Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid", "Acid Anhydride","Acid Halide", "Amide", "Amine", "Epoxide", "Ester", "Ether", "Nitrate", "Nitrile", "Nitrite", "Nitro", "Nitroso", "Imine", "Imide", "Azide", "Cyanate", "Isocyanate", "Azo Compound", "Thiol", "Sulfide", "Disulfide", "Sulfoxide", "Sulfone", "Sulfinic Acid", "Sulfonate Ester", "Thiocyanate", "Isothiocyanate", "Thial", "Thioketone", "Phosphine"]
-
+struct StartingScreen: View {
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                NavigationLink(destination: ContentView(isNew: false)) {
+                    Text("Continue Training")
+                }
+                NavigationLink(destination: ContentView(isNew: true)) {
+                    Text("New Training")
+                }
+            }.navigationBarTitle("FT Trainer")
+        }
+    }
+    
+}
+let groups1 = ["Alkane", "Alkene", "Alkyne", "Arene", "Haloalkane", "Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid", "Acid Anhydride","Acid Halide", "Amide", "Amine", "Epoxide", "Ester", "Ether", "Nitrate", "Nitrile", "Nitrite", "Nitro", "Nitroso", "Imine", "Imide", "Azide", "Cyanate", "Isocyanate", "Azo Compound", "Thiol", "Sulfide", "Disulfide", "Sulfoxide", "Sulfone", "Sulfinic Acid", "Sulfonate Ester", "Thiocyanate", "Isothiocyanate", "Thial", "Thioketone", "Phosphine"]
 struct ContentView: View {
+    @State var isNew: Bool = false
     @State var index = 1
-    @State var sequence = Array(0..<groups.count).shuffled()
+    @State var sequence = Array(0..<groups1.count).shuffled()
     static let redColors = Gradient(colors: [Color(hue: 0, saturation: 100, brightness: 100), Color(hue: 0, saturation: 10, brightness: 70), Color(hue: 40, saturation: 100, brightness: 40)])
     let redAngularGradient = RadialGradient(gradient: redColors, center: .center, startRadius: 0.0, endRadius: 100.0)
     @State var showText = true
@@ -51,9 +67,9 @@ struct ContentView: View {
             Spacer()
             Button(action: { self.showText = !self.showText}) {
                 if showText {
-                    Text(groups[sequence[index]]).font(.largeTitle).foregroundColor(.black)
+                    Text(groups1[sequence[index]]).font(.largeTitle).foregroundColor(.black)
                 } else {
-                    Image(groups[sequence[index]]).renderingMode(  .original)
+                    Image(groups1[sequence[index]]).renderingMode(  .original)
                 }
             }.gesture(DragGesture().onEnded {_ in 
                 self.showText.toggle()
@@ -76,13 +92,16 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().gesture(DragGesture().onChanged { gesInfo in
+            print(gesInfo.location)
+            
+        })
     }
 }
 
 extension LocalizedStringKey.StringInterpolation {
     mutating func appendInterpolation(simpleDouble: Double) {
-        var format = NumberFormatter()
+        let format = NumberFormatter()
         format.maximumFractionDigits = 2
         format.maximumIntegerDigits = 3
         let result = format.string(from: NSNumber(floatLiteral: simpleDouble))
