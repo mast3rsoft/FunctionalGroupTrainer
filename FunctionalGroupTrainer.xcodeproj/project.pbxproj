@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23C3B5192431CAE70067FB75 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 23C3B5182431CAE70067FB75 /* RealmSwift */; };
+		23C3B52D243A03FB0067FB75 /* TrainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B52C243A03FB0067FB75 /* TrainerViewModel.swift */; };
+		23C3B553244372DF0067FB75 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51F2433C0200067FB75 /* Trainer.swift */; };
+		23C3B554244373040067FB75 /* UserDates@Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51A2431CB110067FB75 /* UserDates@Realm.swift */; };
+		23C3B555244373160067FB75 /* Card@Realm.swiftt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51D2431CBFB0067FB75 /* Card@Realm.swiftt.swift */; };
 		23E6E101240197080063FB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E100240197080063FB16 /* AppDelegate.swift */; };
 		23E6E103240197080063FB16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E102240197080063FB16 /* SceneDelegate.swift */; };
 		23E6E105240197080063FB16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E104240197080063FB16 /* ContentView.swift */; };
@@ -52,6 +57,19 @@
 		23E6E1652401DFFA0063FB16 /* Nitro.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1522401DFFA0063FB16 /* Nitro.png */; };
 		23E6E1662401DFFA0063FB16 /* Ester.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1532401DFFA0063FB16 /* Ester.png */; };
 		23E6E1672401DFFA0063FB16 /* Ester.png in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1532401DFFA0063FB16 /* Ester.png */; };
+		23E6E1832402C76D0063FB16 /* FGTrainer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 23E6E1822402C76D0063FB16 /* FGTrainer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		23E6E1892402C76D0063FB16 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1872402C76D0063FB16 /* Interface.storyboard */; };
+		23E6E18B2402C7700063FB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E18A2402C7700063FB16 /* Assets.xcassets */; };
+		23E6E1922402C7700063FB16 /* FGTrainer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 23E6E1912402C7700063FB16 /* FGTrainer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		23E6E1972402C7700063FB16 /* ContentViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E1962402C7700063FB16 /* ContentViewWatch.swift */; };
+		23E6E1992402C7700063FB16 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E1982402C7700063FB16 /* HostingController.swift */; };
+		23E6E19B2402C7700063FB16 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E19A2402C7700063FB16 /* ExtensionDelegate.swift */; };
+		23E6E19D2402C7700063FB16 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E19C2402C7700063FB16 /* NotificationController.swift */; };
+		23E6E19F2402C7700063FB16 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E19E2402C7700063FB16 /* NotificationView.swift */; };
+		23E6E1A12402C7720063FB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1A02402C7720063FB16 /* Assets.xcassets */; };
+		23E6E1A42402C7720063FB16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1A32402C7720063FB16 /* Preview Assets.xcassets */; };
+		23E6E1B22402C7D90063FB16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E104240197080063FB16 /* ContentView.swift */; };
+		23E6E1B92402C8800063FB16 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23E6E1BB2402C8800063FB16 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +80,62 @@
 			remoteGlobalIDString = 23E6E0FC240197080063FB16;
 			remoteInfo = FunctionalGroupTrainer;
 		};
+		23E6E1842402C76D0063FB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E6E0F5240197080063FB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E6E1812402C76D0063FB16;
+			remoteInfo = "FGTrainer WatchKit App";
+		};
+		23E6E1932402C7700063FB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23E6E0F5240197080063FB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E6E1902402C7700063FB16;
+			remoteInfo = "FGTrainer WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		23E6E17C2402C7200063FB16 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6E1AA2402C7720063FB16 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				23E6E1922402C7700063FB16 /* FGTrainer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6E1AE2402C7720063FB16 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				23E6E1832402C76D0063FB16 /* FGTrainer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		23C3B51A2431CB110067FB75 /* UserDates@Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDates@Realm.swift"; sourceTree = "<group>"; };
+		23C3B51D2431CBFB0067FB75 /* Card@Realm.swiftt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card@Realm.swiftt.swift"; sourceTree = "<group>"; };
+		23C3B51F2433C0200067FB75 /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		23C3B52C243A03FB0067FB75 /* TrainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerViewModel.swift; sourceTree = "<group>"; };
 		23E6E0FD240197080063FB16 /* FunctionalGroupTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalGroupTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E6E100240197080063FB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23E6E102240197080063FB16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +166,22 @@
 		23E6E1512401DFF90063FB16 /* Nitrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitrite.png; sourceTree = "<group>"; };
 		23E6E1522401DFFA0063FB16 /* Nitro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nitro.png; sourceTree = "<group>"; };
 		23E6E1532401DFFA0063FB16 /* Ester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ester.png; sourceTree = "<group>"; };
+		23E6E17F2402C76D0063FB16 /* FGTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6E1822402C76D0063FB16 /* FGTrainer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FGTrainer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6E1882402C76D0063FB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		23E6E18A2402C7700063FB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23E6E18C2402C7700063FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E6E1912402C7700063FB16 /* FGTrainer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FGTrainer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6E1962402C7700063FB16 /* ContentViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewWatch.swift; sourceTree = "<group>"; };
+		23E6E1982402C7700063FB16 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		23E6E19A2402C7700063FB16 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		23E6E19C2402C7700063FB16 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		23E6E19E2402C7700063FB16 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		23E6E1A02402C7720063FB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23E6E1A32402C7720063FB16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23E6E1A52402C7720063FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E6E1A62402C7720063FB16 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		23E6E1BA2402C8800063FB16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +189,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C3B5192431CAE70067FB75 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		23E6E110240197130063FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6E18E2402C7700063FB16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -120,6 +215,8 @@
 			children = (
 				23E6E0FF240197080063FB16 /* FunctionalGroupTrainer */,
 				23E6E116240197130063FB16 /* FunctionalGroupTrainerTests */,
+				23E6E1862402C76D0063FB16 /* FGTrainer WatchKit App */,
+				23E6E1952402C7700063FB16 /* FGTrainer WatchKit Extension */,
 				23E6E0FE240197080063FB16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +226,9 @@
 			children = (
 				23E6E0FD240197080063FB16 /* FunctionalGroupTrainer.app */,
 				23E6E113240197130063FB16 /* FunctionalGroupTrainerTests.xctest */,
+				23E6E17F2402C76D0063FB16 /* FGTrainer.app */,
+				23E6E1822402C76D0063FB16 /* FGTrainer WatchKit App.app */,
+				23E6E1912402C7700063FB16 /* FGTrainer WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,10 +236,14 @@
 		23E6E0FF240197080063FB16 /* FunctionalGroupTrainer */ = {
 			isa = PBXGroup;
 			children = (
+				23C3B51D2431CBFB0067FB75 /* Card@Realm.swiftt.swift */,
+				23C3B51A2431CB110067FB75 /* UserDates@Realm.swift */,
 				23E6E100240197080063FB16 /* AppDelegate.swift */,
 				23E6E102240197080063FB16 /* SceneDelegate.swift */,
 				23E6E12224019AD30063FB16 /* Images */,
 				23E6E104240197080063FB16 /* ContentView.swift */,
+				23C3B51F2433C0200067FB75 /* Trainer.swift */,
+				23C3B52C243A03FB0067FB75 /* TrainerViewModel.swift */,
 				23E6E106240197120063FB16 /* Assets.xcassets */,
 				23E6E10B240197120063FB16 /* LaunchScreen.storyboard */,
 				23E6E10E240197120063FB16 /* Info.plist */,
@@ -191,6 +295,41 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		23E6E1862402C76D0063FB16 /* FGTrainer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				23E6E1872402C76D0063FB16 /* Interface.storyboard */,
+				23E6E18A2402C7700063FB16 /* Assets.xcassets */,
+				23E6E18C2402C7700063FB16 /* Info.plist */,
+			);
+			path = "FGTrainer WatchKit App";
+			sourceTree = "<group>";
+		};
+		23E6E1952402C7700063FB16 /* FGTrainer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				23E6E1BB2402C8800063FB16 /* Localizable.strings */,
+				23E6E1962402C7700063FB16 /* ContentViewWatch.swift */,
+				23E6E1982402C7700063FB16 /* HostingController.swift */,
+				23E6E19A2402C7700063FB16 /* ExtensionDelegate.swift */,
+				23E6E19C2402C7700063FB16 /* NotificationController.swift */,
+				23E6E19E2402C7700063FB16 /* NotificationView.swift */,
+				23E6E1A02402C7720063FB16 /* Assets.xcassets */,
+				23E6E1A52402C7720063FB16 /* Info.plist */,
+				23E6E1A62402C7720063FB16 /* PushNotificationPayload.apns */,
+				23E6E1A22402C7720063FB16 /* Preview Content */,
+			);
+			path = "FGTrainer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		23E6E1A22402C7720063FB16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23E6E1A32402C7720063FB16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,12 +340,16 @@
 				23E6E0F9240197080063FB16 /* Sources */,
 				23E6E0FA240197080063FB16 /* Frameworks */,
 				23E6E0FB240197080063FB16 /* Resources */,
+				23E6E17C2402C7200063FB16 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FunctionalGroupTrainer;
+			packageProductDependencies = (
+				23C3B5182431CAE70067FB75 /* RealmSwift */,
+			);
 			productName = FunctionalGroupTrainer;
 			productReference = 23E6E0FD240197080063FB16 /* FunctionalGroupTrainer.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +372,57 @@
 			productReference = 23E6E113240197130063FB16 /* FunctionalGroupTrainerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		23E6E17E2402C76D0063FB16 /* FGTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6E1AF2402C7720063FB16 /* Build configuration list for PBXNativeTarget "FGTrainer" */;
+			buildPhases = (
+				23E6E17D2402C76D0063FB16 /* Resources */,
+				23E6E1AE2402C7720063FB16 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E6E1852402C76D0063FB16 /* PBXTargetDependency */,
+			);
+			name = FGTrainer;
+			productName = FGTrainer;
+			productReference = 23E6E17F2402C76D0063FB16 /* FGTrainer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		23E6E1812402C76D0063FB16 /* FGTrainer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6E1AB2402C7720063FB16 /* Build configuration list for PBXNativeTarget "FGTrainer WatchKit App" */;
+			buildPhases = (
+				23E6E1802402C76D0063FB16 /* Resources */,
+				23E6E1AA2402C7720063FB16 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E6E1942402C7700063FB16 /* PBXTargetDependency */,
+			);
+			name = "FGTrainer WatchKit App";
+			productName = "FGTrainer WatchKit App";
+			productReference = 23E6E1822402C76D0063FB16 /* FGTrainer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		23E6E1902402C7700063FB16 /* FGTrainer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6E1A72402C7720063FB16 /* Build configuration list for PBXNativeTarget "FGTrainer WatchKit Extension" */;
+			buildPhases = (
+				23E6E18D2402C7700063FB16 /* Sources */,
+				23E6E18E2402C7700063FB16 /* Frameworks */,
+				23E6E18F2402C7700063FB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FGTrainer WatchKit Extension";
+			productName = "FGTrainer WatchKit Extension";
+			productReference = 23E6E1912402C7700063FB16 /* FGTrainer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,6 +440,15 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 23E6E0FC240197080063FB16;
 					};
+					23E6E17E2402C76D0063FB16 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					23E6E1812402C76D0063FB16 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					23E6E1902402C7700063FB16 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 23E6E0F8240197080063FB16 /* Build configuration list for PBXProject "FunctionalGroupTrainer" */;
@@ -257,12 +460,18 @@
 				Base,
 			);
 			mainGroup = 23E6E0F4240197080063FB16;
+			packageReferences = (
+				23C3B5172431CAE70067FB75 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 23E6E0FE240197080063FB16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				23E6E0FC240197080063FB16 /* FunctionalGroupTrainer */,
 				23E6E112240197130063FB16 /* FunctionalGroupTrainerTests */,
+				23E6E17E2402C76D0063FB16 /* FGTrainer */,
+				23E6E1812402C76D0063FB16 /* FGTrainer WatchKit App */,
+				23E6E1902402C7700063FB16 /* FGTrainer WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -323,6 +532,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23E6E17D2402C76D0063FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6E1802402C76D0063FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6E18B2402C7700063FB16 /* Assets.xcassets in Resources */,
+				23E6E1892402C76D0063FB16 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E6E18F2402C7700063FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6E1A42402C7720063FB16 /* Preview Assets.xcassets in Resources */,
+				23E6E1B92402C8800063FB16 /* Localizable.strings in Resources */,
+				23E6E1A12402C7720063FB16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -331,6 +566,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E6E101240197080063FB16 /* AppDelegate.swift in Sources */,
+				23C3B554244373040067FB75 /* UserDates@Realm.swift in Sources */,
+				23C3B52D243A03FB0067FB75 /* TrainerViewModel.swift in Sources */,
+				23C3B553244372DF0067FB75 /* Trainer.swift in Sources */,
+				23C3B555244373160067FB75 /* Card@Realm.swiftt.swift in Sources */,
 				23E6E103240197080063FB16 /* SceneDelegate.swift in Sources */,
 				23E6E105240197080063FB16 /* ContentView.swift in Sources */,
 			);
@@ -344,6 +583,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23E6E18D2402C7700063FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E6E1992402C7700063FB16 /* HostingController.swift in Sources */,
+				23E6E1972402C7700063FB16 /* ContentViewWatch.swift in Sources */,
+				23E6E1B22402C7D90063FB16 /* ContentView.swift in Sources */,
+				23E6E19D2402C7700063FB16 /* NotificationController.swift in Sources */,
+				23E6E19B2402C7700063FB16 /* ExtensionDelegate.swift in Sources */,
+				23E6E19F2402C7700063FB16 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -351,6 +603,16 @@
 			isa = PBXTargetDependency;
 			target = 23E6E0FC240197080063FB16 /* FunctionalGroupTrainer */;
 			targetProxy = 23E6E114240197130063FB16 /* PBXContainerItemProxy */;
+		};
+		23E6E1852402C76D0063FB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E6E1812402C76D0063FB16 /* FGTrainer WatchKit App */;
+			targetProxy = 23E6E1842402C76D0063FB16 /* PBXContainerItemProxy */;
+		};
+		23E6E1942402C7700063FB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23E6E1902402C7700063FB16 /* FGTrainer WatchKit Extension */;
+			targetProxy = 23E6E1932402C7700063FB16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -361,6 +623,22 @@
 				23E6E10C240197120063FB16 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		23E6E1872402C76D0063FB16 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E6E1882402C76D0063FB16 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		23E6E1BB2402C8800063FB16 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23E6E1BA2402C8800063FB16 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -564,6 +842,118 @@
 			};
 			name = Release;
 		};
+		23E6E1A82402C7720063FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FGTrainer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = N67RB227UH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FGTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.FGTrainer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		23E6E1A92402C7720063FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FGTrainer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = N67RB227UH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FGTrainer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.FGTrainer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		23E6E1AC2402C7720063FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N67RB227UH;
+				IBSC_MODULE = FGTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "FGTrainer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.FGTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		23E6E1AD2402C7720063FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N67RB227UH;
+				IBSC_MODULE = FGTrainer_WatchKit_Extension;
+				INFOPLIST_FILE = "FGTrainer WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.FGTrainer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		23E6E1B02402C7720063FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N67RB227UH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.FGTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23E6E1B12402C7720063FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N67RB227UH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mast3rsoft.FGTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -594,7 +984,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		23E6E1A72402C7720063FB16 /* Build configuration list for PBXNativeTarget "FGTrainer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6E1A82402C7720063FB16 /* Debug */,
+				23E6E1A92402C7720063FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E6E1AB2402C7720063FB16 /* Build configuration list for PBXNativeTarget "FGTrainer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6E1AC2402C7720063FB16 /* Debug */,
+				23E6E1AD2402C7720063FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E6E1AF2402C7720063FB16 /* Build configuration list for PBXNativeTarget "FGTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E6E1B02402C7720063FB16 /* Debug */,
+				23E6E1B12402C7720063FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23C3B5172431CAE70067FB75 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23C3B5182431CAE70067FB75 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23C3B5172431CAE70067FB75 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23E6E0F5240197080063FB16 /* Project object */;
 }
