@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		23C3B5192431CAE70067FB75 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 23C3B5182431CAE70067FB75 /* RealmSwift */; };
-		23C3B51C2431CB1C0067FB75 /* UserDates@Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51A2431CB110067FB75 /* UserDates@Realm.swift */; };
-		23C3B51E2431CBFB0067FB75 /* Card@Realm.swiftt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51D2431CBFB0067FB75 /* Card@Realm.swiftt.swift */; };
-		23C3B5202433C0200067FB75 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51F2433C0200067FB75 /* Trainer.swift */; };
 		23C3B52D243A03FB0067FB75 /* TrainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B52C243A03FB0067FB75 /* TrainerViewModel.swift */; };
+		23C3B553244372DF0067FB75 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51F2433C0200067FB75 /* Trainer.swift */; };
+		23C3B554244373040067FB75 /* UserDates@Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51A2431CB110067FB75 /* UserDates@Realm.swift */; };
+		23C3B555244373160067FB75 /* Card@Realm.swiftt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C3B51D2431CBFB0067FB75 /* Card@Realm.swiftt.swift */; };
 		23E6E101240197080063FB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E100240197080063FB16 /* AppDelegate.swift */; };
 		23E6E103240197080063FB16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E102240197080063FB16 /* SceneDelegate.swift */; };
 		23E6E105240197080063FB16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E104240197080063FB16 /* ContentView.swift */; };
@@ -566,10 +566,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E6E101240197080063FB16 /* AppDelegate.swift in Sources */,
+				23C3B554244373040067FB75 /* UserDates@Realm.swift in Sources */,
 				23C3B52D243A03FB0067FB75 /* TrainerViewModel.swift in Sources */,
-				23C3B51C2431CB1C0067FB75 /* UserDates@Realm.swift in Sources */,
-				23C3B51E2431CBFB0067FB75 /* Card@Realm.swiftt.swift in Sources */,
-				23C3B5202433C0200067FB75 /* Trainer.swift in Sources */,
+				23C3B553244372DF0067FB75 /* Trainer.swift in Sources */,
+				23C3B555244373160067FB75 /* Card@Realm.swiftt.swift in Sources */,
 				23E6E103240197080063FB16 /* SceneDelegate.swift in Sources */,
 				23E6E105240197080063FB16 /* ContentView.swift in Sources */,
 			);

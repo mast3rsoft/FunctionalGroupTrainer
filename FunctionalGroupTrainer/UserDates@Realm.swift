@@ -8,14 +8,18 @@
 
 import Foundation
 import RealmSwift
+
 class UserDates: Object {
-    init(training: Date, lastTrain: Date) {
+    init(training: Date, lastTrainingDate: Date) {
         trainingStart = training
-        lastTraining = lastTrain
+        lastTraining = lastTrainingDate
     }
-    
-     required init() {
+    required init() {
     }
-    dynamic var trainingStart = Date()
-    dynamic var lastTraining = Date()
+    override class func primaryKey() -> String? {
+        "id"
+    }
+    @objc dynamic var id = UUID().hashValue
+    @objc dynamic var trainingStart = Date()
+    @objc dynamic var lastTraining = Date()
 }
