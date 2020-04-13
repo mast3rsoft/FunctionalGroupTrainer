@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B0C59F13-A7EB-403D-8179-AC14AD0204F3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunctionalGroupTrainer/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - 87b0944fd43902f7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of FunctionalGroupTrainer.ContentView.isNew : Swift.Bool"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - e08c68bb3d75db2d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunctionalGroupTrainer.ContentView.isNew.getter : Swift.Bool"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - a5eecd842580b321"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunctionalGroupTrainer.ContentView.isNew.setter : Swift.Bool"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - d9d220030cd5bd2e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunctionalGroupTrainer.ContentView.isNew.modify : Swift.Bool"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - 54565fc193e1a121"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunctionalGroupTrainer.ContentView.isNew.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - 4f8eddb13a8ee669"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunctionalGroupTrainer.ContentView.$isNew.getter : SwiftUI.Binding&lt;Swift.Bool&gt;"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "137">
+               </Location>
+               <Location
+                  uuid = "12F6D97B-97E1-4037-BAAC-12ECB21C9D77 - e053f9ba0974d071"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FunctionalGroupTrainer.ContentView.init() -&gt; FunctionalGroupTrainer.ContentView"
+                  moduleName = "FunctionalGroupTrainer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/niko/Dropbox/Hacking/Developer/FunctionalGroupTrainer/FunctionalGroupTrainer/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "63">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B16721F1-4FDB-449A-9008-5CB28EFB2DDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "s/TrainerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "newTraining()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "050ECCA7-9D86-4987-87C0-7562A0670FE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunctionalGroupTrainer/Trainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "createTrainingDeck(day:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "893EE087-5B40-4F73-B06D-B00FB0F7A54C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunctionalGroupTrainer/Trainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "createTrainingDeck(day:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "798F3929-402E-4EFA-9E6C-4542BB7A50BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunctionalGroupTrainer/TrainerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "next()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0D5EEDB-07D1-4892-AB5C-F0064160C250"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FunctionalGroupTrainer/TrainerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "next()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
